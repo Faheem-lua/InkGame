@@ -38,12 +38,11 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Info = Window:CreateTab("Info", "badge-info")
+local Tab = Window:CreateTab("Main", "house")
 
 local Paragraph = Info:CreateParagraph({Title = "★ Zeinon ", Content = "Main Owner Hub"})
 
 local Paragraph = Info:CreateParagraph({Title = "Join Our discord!", Content = "Join our discord to have some suggestions and features https://discord.gg/9JMzg2rp"})
-
-local Tab = Window:CreateTab("Main", "house")
 
 local Section = Main:CreateSection("LocalPlayer")
 
