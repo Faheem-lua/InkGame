@@ -38,7 +38,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Info = Window:CreateTab("Info", "badge-info")
-local Main = Window:CreateTab("Main", "house")
+local Main = Window:CreateTab("Main", "book-check")
 
 local Paragraph = Info:CreateParagraph({Title = "★ Zeinon ", Content = "Main Owner Hub"})
 
