@@ -44,9 +44,9 @@ local Paragraph = Info:CreateParagraph({Title = "★ Zeinon ", Content = "Main O
 
 local Paragraph = Info:CreateParagraph({Title = "Join Our discord!", Content = "Join our discord to have some suggestions and features https://discord.gg/9JMzg2rp"})
 
-local Section = Main:CreateSection("LocalPlayer")
+local Section = Main:CreateSection("Player")
 
-local LocalPlayer = Tab:CreateSlider({
+local Slider = Player:CreateSlider({
    Name = "WalkSpeed Changer",
    Range = {1, 150}, -- Min 1, Max 150
    Increment = 1, -- Change per tick
@@ -63,7 +63,7 @@ local LocalPlayer = Tab:CreateSlider({
    end,
 })
 
-local LocalPlayer = Tab:CreateSlider({
+local Slider = Player:CreateSlider({
    Name = "Jump Height Changer",
    Range = {10, 200}, -- 50 is default
    Increment = 5,
