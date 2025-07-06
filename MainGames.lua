@@ -2,10 +2,10 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Zeinon Hub | Ink-Game (BETA)",
-   Icon = 1049060234, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = brackets, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Loading Hub...",
    LoadingSubtitle = "Made by Zeinon ★",
-   ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
+   ShowText = "Zeinon Hub", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
@@ -43,7 +43,7 @@ local Paragraph = Info:CreateParagraph({Title = "★ Zeinon ", Content = "Main O
 
 local Paragraph = Info:CreateParagraph({Title = "Join Our discord!", Content = "Join our discord to have some suggestions and features https://discord.gg/9JMzg2rp"})
 
-local Main = Window:CreateTab("Main", "house")
+local Tab = Window:CreateTab("Main", "house")
 
 local Section = Main:CreateSection("LocalPlayer")
 
