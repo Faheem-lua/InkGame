@@ -25,23 +25,25 @@ local Window = Rayfield:CreateWindow({
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
-   KeySystem = false, -- Set this to true to use our key system
+   KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Untitled",
-      Subtitle = "Key System",
-      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
-      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      Title = "Authentication | Power ny boba.gg",
+      Subtitle = "Key System | Zeinon Hub",
+      Note = "Key Its Something BOBIS (COOL) guess its", -- Use this to tell the user how to get a key
+      FileName = "BOBISCOOL", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"BOBISCOOL"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
 local Info = Window:CreateTab("Info", "badge-info")
-local Main = Window:CreateTab("Main", "house")
 
 local Paragraph = Info:CreateParagraph({Title = "★ Zeinon ", Content = "Main Owner Hub"})
+
 local Paragraph = Info:CreateParagraph({Title = "Join Our discord!", Content = "Join our discord to have some suggestions and features https://discord.gg/9JMzg2rp"})
+
+local Main = Window:CreateTab("Main", "house")
 
 local Section = Main:CreateSection("LocalPlayer")
 
